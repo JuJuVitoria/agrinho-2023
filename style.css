@@ -1,0 +1,70 @@
+@import url(./css/header.css);
+@import url(./css/footer.css);
+@import url(./css/home.css);
+@import url(./css/colegio.css);
+
+:root {
+    --tamanhoGrande: 1.25rem;
+    --tamanhoMedio: 1.000rem;
+    --tamanhoPequenho: 0.812rem;
+    
+    --verdeClaro: #6C733D;
+    --verde: #3C401E;
+    --verdeEscuro: #222614;
+    --brancoPrincipal: #F1F1F1;
+    --corTexto: #424242;
+    --corTextoEscuro: #2E2E2E;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--corTexto);
+    overflow-x: hidden;
+    line-height: normal;
+    background-color: var(--brancoPrincipal);
+}
+
+main {
+    padding: 2rem 2rem;
+    min-width: 320px;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.titulo {
+    font-size: var(--tamanhoGrande);
+    font-weight: 600;
+    color: var(--corTextoEscuro);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: var(--tamanhoGrande);
+    font-weight: 500;
+    color: var(--corTexto);
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.subtituloSecundario {
+    font-size: var(--tamanhoGrande);
+    font-weight: 400;
+    color: var(--corTextoEscuro);
+    margin-bottom: .2rem;
+}
+
+.corpo {
+    font-size: var(--tamanhoMedio);
+    color: var(--corTexto);
+    margin-bottom: .2rem;
+}
+
+.descricao {
+    font-size: var(--tamanhoPequenho);
+}
