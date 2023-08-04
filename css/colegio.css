@@ -1,3 +1,9 @@
+.img_colegio {
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
+}
+
 strong {
     font-weight: 500;
 }
@@ -25,12 +31,16 @@ strong {
 }
 
 .secao_localizacao__mapa {
-    width: 50%;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 var(--cinza), 0 6px 20px 0 var(--cinza);
 }
 
 @media screen and (max-width: 481px) {
+    .img_colegio {
+        width: 50%;
+    }
+
     .secao_localizacao__mapa {
         width: 80%;
     }

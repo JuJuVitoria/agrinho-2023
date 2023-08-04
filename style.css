@@ -2,6 +2,7 @@
 @import url(./css/footer.css);
 @import url(./css/home.css);
 @import url(./css/colegio.css);
+@import url(./css/sobreMim.css);
 
 :root {
     --tamanhoGrande: 1.25rem;
